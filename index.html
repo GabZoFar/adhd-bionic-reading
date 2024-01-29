@@ -1,18 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>adhd-bionic-reading</title>
+    <title>Ddhd-bionic-reading</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Adhd Bionic Reading Converter</h1>
     <div class="container">
         <textarea id="input" placeholder="Enter text here..."></textarea>
-        <textarea id="output" placeholder="Bionic-reading text appears here..." readonly></textarea>
+        <div id="output" contenteditable="false" placeholder="Boldened text appears here..."></div>
     </div>
-    <button onclick="boldenText()">Convert to Bionic!</button>
-    <!-- Moved the script tag to the end of the body -->
+    <button onclick="boldenText()">Bionic Convert</button>
+    <!-- Footer -->
+    <footer>
+            <p>&copy; 2024 - <a href="http://gabrielle-neveu.com" target="_blank">gabrielle-neveu.com</a></p>
+     </footer>
+    <!-- End of Footer -->
     <script src="script.js"></script>
 </body>
 </html>

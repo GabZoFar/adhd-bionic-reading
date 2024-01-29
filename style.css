@@ -5,8 +5,10 @@ html, body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: #0B1A2B; /* Background color of the page */
+    background-color: #FDFDEE; /* Background color of the page */
     color: white; /* Text color */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 .container {
@@ -17,31 +19,72 @@ html, body {
     flex-direction: row; /* Horizontal alignment by default */
 }
 
+h1 {
+    padding: 40px 0 0 40px;
+    text-align: center;
+    color:rgb(139, 10, 10);
+    font-weight: 900;
+}
+
 textarea {
     flex-grow: 1;
     margin: 5px;
     padding: 10px;
     resize: none;
     height: 100%;
-    border: 1px solid white; /* Border color of text boxes */
+    border: 1px solid rgb(139, 10, 10); /* Border color of text boxes */
     background-color: transparent; /* Background color of text boxes */
-    color: white; /* Text color */
+    color: rgb(54, 54, 54); /* Text color */
     border-radius: 10px; /* Curved edges */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
-textarea::placeholder {
+#output {
+    flex-grow: 1;
+    margin: 5px;
+    padding: 10px;
+    resize: none;
+    height: 100%;
+    border: 1px solid rgb(139, 10, 10); /* Border color of text boxes */
+    background-color: transparent; /* Background color of text boxes */
+    color:rgb(54, 54, 54); /* Text color */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 10px; /* Curved edges */
+    line-height: 1.5;
+    
+}
+
+#output::placeholder {
     color: rgb(124, 124, 124); /* Placeholder text color */
 }
 
 button {
     padding: 10px;
-    margin: 40px 40px 80px 40px; /* Margin around the button */
+    margin: 20px 40px 40px 40px; /* Margin around the button */
     height: 60px; /* Height adjusted for padding */
     width: calc(100% - 80px); /* Width adjusted for padding */
-    border: 1px solid white; /* Border color of the button */
+    border: 1px solid rgb(139, 10, 10); /* Border color of the button */
     border-radius: 10px; /* Curved edges */
-    background-color: #0B1A2B; /* Background color of the button */
-    color: white; /* Text color of the button */
+    background-color: rgb(139, 10, 10); /* Background color of the button */
+    color: rgb(255, 255, 255); /* Text color of the button */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+footer {
+    padding: 40px 0 0 40px;
+    text-align: center;
+    color:rgb(139, 10, 10);
+    font-size: small;
+    font-weight: 100;
+
+}
+
+footer a {
+    color: rgb(139, 10, 10); /* Keeps the link red */
+    text-decoration: underline; /* Adds underline to the link */
 }
 
 /* Breakpoints for mobile responsiveness */
