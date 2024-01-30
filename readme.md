@@ -1,6 +1,6 @@
 # ADHD Bionic Reading Converter
 
-This JavaScript utility boldens specific parts of the text based on word length. 
+This JavaScript app boldens the first letters of words within a text, based on word length. 
 It is designed to help with focus and reading speed.
 Simply paste any long text you want to convert to bionic reading.
 
@@ -10,7 +10,8 @@ No installation is required for this utility as it is a plain JavaScript functio
 
 ## Usage
 
-Just open the index.html in any browser or publish to netlify/static hosting provider to try it out!
+1. Clone or dowload repo
+2. Open index.html in any browser or publish to netlify/static hosting provider to try it out!
 
 Working demo: https://adhd-bionic-reading.vercel.app/
 
