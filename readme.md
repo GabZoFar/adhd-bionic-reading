@@ -14,7 +14,7 @@ Just open the index.html in any browser or publish to netlify/static hosting pro
 
 Working demo: https://adhd-bionic-reading.vercel.app/
 
-## API Reference
+## Function Reference
 
 #### `boldenText()`
 
